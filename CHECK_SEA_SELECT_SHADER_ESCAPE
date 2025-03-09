@@ -10,5 +10,6 @@ elseif placeId == 7449423635 then
     -- Sea 3
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SELECT_SHADER_ESCAPE/refs/heads/main/SELECT_SHADER_ESCAPE"))()
 else
-    warn("Không phải ở Sea 1, Sea 2 hoặc Sea 3. Script không chạy.")
+    -- Nếu không phải cả 3 Sea trên, chạy script ngoại lệ
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SELECT_SHADER_ESCAPE/refs/heads/main/SELECT_SHADER_ESCAPE"))()
 end
